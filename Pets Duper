@@ -54,6 +54,13 @@ Rayfield:Notify({
 local MainTab = Window:CreateTab("⚙️ Misc", nil) -- Title, Image    
 local MainSection = MainTab:CreateSection("Misc")
 
+Rayfield:Notify({
+   Title = "Thank you for executing my script",
+   Content = "Thanks pls Follow/Subcribe me",
+   Duration = 5,
+   Image = nil,
+})    
+
 local Button = MainTab:CreateButton({
    Name = "Fps Boost",
    Callback = function()
